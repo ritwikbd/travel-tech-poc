@@ -5,12 +5,6 @@ Created on Sat Nov 11 13:57:07 2023
 @author: ritwi
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 11 13:50:06 2023
-
-@author: ritwi
-"""
 from youtube_transcript_api import YouTubeTranscriptApi
 def get_video_text(video_id):
     """Takes the Youtube ID of a video and returns the entire text from its transcript. Only works on videos with caption
